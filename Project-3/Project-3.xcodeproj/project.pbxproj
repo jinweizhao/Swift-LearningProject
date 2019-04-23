@@ -13,6 +13,8 @@
 		D8C8893A2269ACE10052563E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D8C889392269ACE10052563E /* Assets.xcassets */; };
 		D8C8893D2269ACE10052563E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8C8893B2269ACE10052563E /* LaunchScreen.storyboard */; };
 		D8C889452269C2740052563E /* emoji zone.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = D8C889442269C2740052563E /* emoji zone.mp4 */; };
+		D8C88948226EB9BA0052563E /* VideoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8C88946226EB9BA0052563E /* VideoCell.swift */; };
+		D8C88949226EB9BA0052563E /* VideoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D8C88947226EB9BA0052563E /* VideoCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		D8C8893C2269ACE10052563E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D8C8893E2269ACE10052563E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D8C889442269C2740052563E /* emoji zone.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "emoji zone.mp4"; sourceTree = "<group>"; };
+		D8C88946226EB9BA0052563E /* VideoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoCell.swift; sourceTree = "<group>"; };
+		D8C88947226EB9BA0052563E /* VideoCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = VideoCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +62,8 @@
 			children = (
 				D8C889322269ACDF0052563E /* AppDelegate.swift */,
 				D8C889342269ACDF0052563E /* ViewController.swift */,
+				D8C88946226EB9BA0052563E /* VideoCell.swift */,
+				D8C88947226EB9BA0052563E /* VideoCell.xib */,
 				D8C889442269C2740052563E /* emoji zone.mp4 */,
 				D8C889362269ACDF0052563E /* Main.storyboard */,
 				D8C889392269ACE10052563E /* Assets.xcassets */,
@@ -125,6 +131,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D8C88949226EB9BA0052563E /* VideoCell.xib in Resources */,
 				D8C8893D2269ACE10052563E /* LaunchScreen.storyboard in Resources */,
 				D8C889452269C2740052563E /* emoji zone.mp4 in Resources */,
 				D8C8893A2269ACE10052563E /* Assets.xcassets in Resources */,
@@ -141,6 +148,7 @@
 			files = (
 				D8C889352269ACDF0052563E /* ViewController.swift in Sources */,
 				D8C889332269ACDF0052563E /* AppDelegate.swift in Sources */,
+				D8C88948226EB9BA0052563E /* VideoCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
