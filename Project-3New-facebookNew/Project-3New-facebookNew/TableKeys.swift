@@ -31,7 +31,11 @@ public struct TableKeys {
         return [
             [
                 TableKeys.Rows: [
-                    [TableKeys.ImageName: user.avatarName, TableKeys.Title: user.name, TableKeys.SubTitle: "View your profile"]
+                    [
+                     TableKeys.ImageName: user.avatarName,
+                     TableKeys.Title: user.name,
+                     TableKeys.SubTitle: "View your profile"
+                    ]
                 ]
             ],
             [
