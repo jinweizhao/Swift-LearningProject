@@ -24,6 +24,8 @@ class ItemListViewController: UIViewController {
         
         tableView.delegate = dataProvider
         
+        tableView.rowHeight = 105
+        
         dataProvider.itemManager = ToDoItemManager()
         
         NotificationCenter.default.addObserver(self, selector: #selector(showDetails(_:)), name: NSNotification.ItemSelectedNotification, object: nil)
@@ -38,6 +40,21 @@ class ItemListViewController: UIViewController {
     
     @objc func showDetails(_ sender: Notification) {
         
+        guard let index = sender.userInfo?["index"] as? Int else { fatalError()  }
+        
+        if let nextVC = storyboard?.instantiateViewController(withIdentifier: Constants.DetailViewControllerIdentifier) as? DetailViewController, let itemManager = dataProvider.itemManager {
+            
+            guard index < itemManager.toDoCount else {
+              return
+            }
+            
+            nextVC.item = itemManager.item(at: index)
+              
+            navigationController?.pushViewController(nextVC, animated: true)
+            
+            
+            
+        }
         
         
     }
@@ -45,7 +62,8 @@ class ItemListViewController: UIViewController {
     @IBAction func addItemClick(_ sender: Any) {
         
         let inputVC = storyboard?.instantiateViewController(identifier: "InputViewController") as! InputViewController
-        
+        inputVC.modalPresentationStyle = .fullScreen
+        inputVC.itemManager = dataProvider.itemManager
         
         present(inputVC, animated: true, completion: nil)
     }

@@ -50,7 +50,19 @@ struct ToDoItem {
         self.location = location
     }
     
-    
+    init?(dict: [String: Any]) {
+        
+        guard let title = dict[titleKey] as? String else { return nil }
+        
+        self.title = title
+        self.itemDescription = dict[itemDescriptionKey] as? String
+        self.timestamp = dict[timestampKey] as? Double
+        if let locationDict = dict[locationKey] as? [String: Any] {
+          self.location = Location(dict: locationDict)
+        } else {
+          self.location = nil
+        }
+    }
     
     
 }

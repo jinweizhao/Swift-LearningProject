@@ -10,6 +10,7 @@
 		D872A6C4238E4F8E0027C9BB /* InputViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D872A6C3238E4F8E0027C9BB /* InputViewController.swift */; };
 		D872A6C6238E61970027C9BB /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = D872A6C5238E61970027C9BB /* Constants.swift */; };
 		D8C8E74B234F0E5600C0AD87 /* ItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8C8E74A234F0E5600C0AD87 /* ItemCell.swift */; };
+		D8CA036823ACAC5900943DB7 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8CA036723ACAC5900943DB7 /* DetailViewController.swift */; };
 		D8FFAADC233CBA9D00900BCD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8FFAADB233CBA9D00900BCD /* AppDelegate.swift */; };
 		D8FFAADE233CBA9D00900BCD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8FFAADD233CBA9D00900BCD /* SceneDelegate.swift */; };
 		D8FFAAE0233CBA9D00900BCD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8FFAADF233CBA9D00900BCD /* ViewController.swift */; };
@@ -27,6 +28,7 @@
 		D872A6C3238E4F8E0027C9BB /* InputViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputViewController.swift; sourceTree = "<group>"; };
 		D872A6C5238E61970027C9BB /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		D8C8E74A234F0E5600C0AD87 /* ItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemCell.swift; sourceTree = "<group>"; };
+		D8CA036723ACAC5900943DB7 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		D8FFAAD8233CBA9D00900BCD /* Project4-ToDoTDD.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Project4-ToDoTDD.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8FFAADB233CBA9D00900BCD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D8FFAADD233CBA9D00900BCD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -77,6 +79,7 @@
 				D8FFAADF233CBA9D00900BCD /* ViewController.swift */,
 				D8FFAAEF233DDF0000900BCD /* ItemListViewController.swift */,
 				D872A6C3238E4F8E0027C9BB /* InputViewController.swift */,
+				D8CA036723ACAC5900943DB7 /* DetailViewController.swift */,
 				D8FFAAF1233DE13F00900BCD /* ItemListDataProvider.swift */,
 				D8C8E74A234F0E5600C0AD87 /* ItemCell.swift */,
 				D8FFAAF3233DE7DB00900BCD /* ToDoItemManager.swift */,
@@ -165,6 +168,7 @@
 				D8FFAAE0233CBA9D00900BCD /* ViewController.swift in Sources */,
 				D872A6C4238E4F8E0027C9BB /* InputViewController.swift in Sources */,
 				D8FFAAF2233DE13F00900BCD /* ItemListDataProvider.swift in Sources */,
+				D8CA036823ACAC5900943DB7 /* DetailViewController.swift in Sources */,
 				D8C8E74B234F0E5600C0AD87 /* ItemCell.swift in Sources */,
 				D8FFAAF8233DE9C200900BCD /* Location.swift in Sources */,
 				D8FFAAF6233DE83400900BCD /* ToDoItem.swift in Sources */,
